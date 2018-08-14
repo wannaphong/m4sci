@@ -6,4 +6,4 @@ def gcd(a,b): # Euclidean Algorithm https://www.khanacademy.org/computing/comput
  else:
   q=int(a/b)
   r=a-(b*q)
-  return GCD(b,r)
+  return gcd(b,r)
